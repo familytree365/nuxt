@@ -122,17 +122,17 @@ export default defineNuxtConfig({
       brands: true,
     },
   },
-  nuxtContentAlgolia: {
-    appId: process.env.ALGOLIA_APP_ID,
-    apiKey: process.env.ALGOLIA_API_KEY,
-    paths: [
-      {
-        name: 'articles',
-        index: 'articles',
-        fields: ['title', 'description', 'bodyPlainText'],
-      },
-    ],
-  },
+  // nuxtContentAlgolia: {
+  //   appId: process.env.ALGOLIA_APP_ID,
+  //   apiKey: process.env.ALGOLIA_API_KEY,
+  //   paths: [
+  //     {
+  //       name: 'articles',
+  //       index: 'articles',
+  //       fields: ['title', 'description', 'bodyPlainText'],
+  //     },
+  //   ],
+  // },
 
   publicRuntimeConfig: {
     axios: {
